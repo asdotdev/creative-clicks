@@ -1,50 +1,84 @@
-# Welcome to your Expo app 👋
+# Creative Clicks
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Creative Clicks is a React Native application built using Expo that allows users to capture photos, draw on them, add stickers, and download the edited images. This app is designed to provide a fun and interactive way for users to express their creativity through photography.
 
-## Get started
+## Features
 
-1. Install dependencies
+-   Capture photos using the device camera.
+-   Draw on captured photos with various brush styles and colors.
+-   Add stickers from a predefined collection.
+-   Download the edited photo to the device's storage.
+-   User-friendly interface for easy navigation.
 
-   ```bash
-   npm install
-   ```
+## Technologies Used
 
-2. Start the app
+-   React Native
+-   Expo
+-   Expo Camera
+-   React Native Skia
+-   React Native Reanimated
+-   React Native Gesture Handler
+-   React Native View Shot
+-   Expo Media Library
 
-   ```bash
-    npx expo start
-   ```
+## Getting Started
 
-In the output, you'll find options to open the app in a
+### Cloning the Repository
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+To get a local copy of the project, follow these steps:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Open your terminal.
+2. Navigate to the directory where you want to clone the repository.
+3. Run the following command:
 
-## Get a fresh project
+    ```bash
+    git clone https://github.com/asdotdev/creative-clicks.git
+    ```
 
-When you're ready, run:
+4. Change into the project directory:
+
+    ```bash
+    cd creative-clicks
+    ```
+
+### Setting Up the Development Environment
+
+Before running the app, ensure you have the following installed:
+
+1. [Node.js](https://nodejs.org/en) (LTS)
+
+2. [Expo CLI](https://docs.expo.dev/more/expo-cli/) (Install it globally)
+
+### Running the App Locally
+
+1. Install the project dependencies:
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Start the Expo development server:
 
-## Learn more
+```bash
+expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Now, run the app on an Android or iOS simulator, or on a physical device using the Expo Go app.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Download the App
 
-## Join the community
+### Android
 
-Join our community of developers creating universal apps.
+[Download Creative Clicks APK for Android](https://expo.dev/accounts/amitabh-sahu/projects/creative-clicks/builds/e548a56d-7cf8-43aa-a5c3-2657d2197010)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### iOS
+
+Sorry, Apple does not allowed sideloading app on iOS and I'm not spending money on Apple Developer Program subscription.
+
+## Contributing Guide
+
+Read the [CONTRIBUTING](https://github.com/asdotdev/creative-clicks/blob/master/CONTRIBUTING.md) file to learn about our development process, how to propose bugfixes and improvements.
+
+## License
+
+`@asdotdev/creative-clicks` is MIT licensed, as found in the [LICENSE](https://github.com/asdotdev/creative-clicks/blob/master/LICENSE) file.
