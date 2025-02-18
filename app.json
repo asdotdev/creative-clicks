@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "cactro-react-native",
-    "slug": "cactro-react-native",
+    "name": "Creative Clicks",
+    "slug": "creative-clicks",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7a424404-b675-4d9e-836f-d54d989bfe5a"
+      }
+    },
+    "owner": "amitabh-sahu"
   }
 }
