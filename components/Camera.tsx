@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
-import { View, StyleSheet, Button } from "react-native";
-import { CameraType, CameraView, useCameraPermissions } from "expo-camera";
+import { View, StyleSheet } from "react-native";
+import { CameraType, CameraView } from "expo-camera";
 import Actions from "./Actions";
 import { Photo } from "@/interface";
 
@@ -29,16 +29,16 @@ export default function Camera({
                 ref={cameraRef}
                 facing={facing}
                 ratio="16:9"
-                style={[styles.flexOne, styles.flexBox]}
-            >
-                <Actions
-                    ctas={[
-                        { name: "camera-flip", action: toggleCameraFacing },
-                        { name: "camera", action: handleTakePhoto },
-                    ]}
-                    boxMargin={32}
-                />
-            </CameraView>
+                style={StyleSheet.absoluteFill}
+            />
+            <View style={[styles.flexOne, styles.flexBox]} />
+            <Actions
+                ctas={[
+                    { name: "camera-flip", action: toggleCameraFacing },
+                    { name: "camera", action: handleTakePhoto },
+                ]}
+                boxMargin={32}
+            />
         </View>
     );
 }

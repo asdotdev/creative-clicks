@@ -30,7 +30,7 @@ If you then still feel the need to ask a question and need clarification, we rec
 
 -   Open an [Issue](https://github.com/asdotdev/creative-clicks/issues/new).
 -   Provide as much context as you can about what you're running into.
--   Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant.
+-   Provide project and platform versions (nodejs, yarn, etc), depending on what seems relevant.
 
 We will then take care of the issue as soon as possible.
 
@@ -86,7 +86,7 @@ Check if [Node.js](https://nodejs.org/en/download/) is already installed on your
 
 ```
 node -v
-npm -v
+yarn -v
 ```
 
 Make sure you are using `v18.x.x` or above. Else install [Node.js](https://nodejs.org/en/download/).
@@ -154,28 +154,17 @@ upstream    https://github.com/asdotdev/creative-clicks.git (push)
 
 1. Goto inside creative-clicks directry in your terminal
 
-2. Install npm dependencies with `npm ci`
+2. Install yarn dependencies with `yarn install`
 
-3. Run the cli app in watch mode with `npm run dev`
-
-4. Open another tab of terminal in same directry
-
-5. Now link the cli app globally with `npm run link`
+3. Start the Expo development server with `yarn start`
 
 **Example:**
 
 ```
 cd ~/projects/creative-clicks
-npm ci
-npm run dev
-npm run link
+yarn install
+yarn start
 ```
-
-> You only have to `link` once, changes to the cli app will be updated automatically.
->
-> Once you are done with changes you can `unlink` with `npm run unlink`.
->
-> `link` and `unlink` require permission (i.e. In mac you have to use `sudo` prefix).
 
 ## Contributing to the Codebase
 
@@ -236,9 +225,9 @@ npm run link
 
 7.  Make sure your changes don't have any errors, and also check the formatting of your changes.
 
-    Lint -> `npm run lint:check` & `npm run lint:fix`
+    Lint -> `yarn run lint:check` & `yarn run lint:fix`
 
-    Prettier -> `npm run format:check` & `npm run format:fix`
+    Prettier -> `yarn run format:check` & `yarn run format:fix`
 
 8.  Check and confirm the files you are updating with `git status`
 
