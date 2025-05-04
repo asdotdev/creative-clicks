@@ -29,16 +29,16 @@ export default function Camera({
                 ref={cameraRef}
                 facing={facing}
                 ratio="16:9"
-                style={[styles.flexOne, styles.flexBox]}
-            >
-                <Actions
-                    ctas={[
-                        { name: "camera-flip", action: toggleCameraFacing },
-                        { name: "camera", action: handleTakePhoto },
-                    ]}
-                    boxMargin={32}
-                />
-            </CameraView>
+                style={StyleSheet.absoluteFill}
+            />
+            <View style={[styles.flexOne, styles.flexBox]} />
+            <Actions
+                ctas={[
+                    { name: "camera-flip", action: toggleCameraFacing },
+                    { name: "camera", action: handleTakePhoto },
+                ]}
+                boxMargin={32}
+            />
         </View>
     );
 }
