@@ -54,13 +54,13 @@ Before running the app, ensure you have the following installed:
 1. Install the project dependencies:
 
 ```bash
-npm install
+yarn install
 ```
 
 2. Start the Expo development server:
 
 ```bash
-expo start
+yarn start
 ```
 
 3. Now, run the app on an Android or iOS simulator, or on a physical device using the Expo Go app.
