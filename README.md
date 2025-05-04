@@ -65,16 +65,6 @@ expo start
 
 3. Now, run the app on an Android or iOS simulator, or on a physical device using the Expo Go app.
 
-## Download the App
-
-### Android
-
-[Download Creative Clicks APK for Android](https://expo.dev/accounts/amitabh-sahu/projects/creative-clicks/builds/e548a56d-7cf8-43aa-a5c3-2657d2197010)
-
-### iOS
-
-Sorry, Apple does not allowed sideloading app on iOS and I'm not spending money on Apple Developer Program subscription.
-
 ## Contributing Guide
 
 Read the [CONTRIBUTING](https://github.com/asdotdev/creative-clicks/blob/master/CONTRIBUTING.md) file to learn about our development process, how to propose bugfixes and improvements.

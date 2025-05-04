@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
-import { View, StyleSheet, Button } from "react-native";
-import { CameraType, CameraView, useCameraPermissions } from "expo-camera";
+import { View, StyleSheet } from "react-native";
+import { CameraType, CameraView } from "expo-camera";
 import Actions from "./Actions";
 import { Photo } from "@/interface";
 

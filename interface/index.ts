@@ -44,7 +44,7 @@ export interface PreviewState {
     paths: Line[];
     stickers: Sticker[];
     handlePanGesture: PanGesture;
-    canvasRef: React.RefObject<View>;
+    canvasRef: React.RefObject<View | null>;
     currentPath: SharedValue<string>;
     currentSticker: SharedValue<CurrentSticker | null>;
     isPanGestureEnded: SharedValue<PanInteractionTypes>;
